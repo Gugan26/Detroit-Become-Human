@@ -1,0 +1,514 @@
+<html>
+    <head>
+        <title>
+            Detroit Become Human
+        </title>
+        <meta name="viewport" content="width=width-device,initial-scale=1.0">
+        <meta charset="UTF-8">
+        <link rel="icon" href="detroitfavicon.jpeg">
+        <style>
+            body{
+                color:white;
+                background-color: rgb(2, 2, 48);
+            }
+            .blockquote1{
+                width:90%;
+            }
+            #tophead{
+                text-align: center;
+                color:rgb(157, 166, 190);
+            }
+            .topdetroit{
+                display: flex;
+                margin-top: 40px;
+            }
+            #detroid1{
+                width:520px;
+                border-radius:10px;
+            }
+            #detroid1:hover{
+                transition: 1s ;
+                transform: scale(1.2) ;
+            }
+            #detroid2{
+                width:520px;
+                border-radius:10px;
+            }
+            #detroid2:hover{
+                transition: 1s;
+                transform:scale(1.2);
+            }
+            #detroid3{
+                width:520px;
+                border-radius:10px;
+            }
+            #detroid3:hover{
+                transition: 1s;
+                transform:scale(1.2);
+            }
+            .middletop{
+                margin-top:30px;
+                display:flex;
+            }
+            #iframe1{
+                width:31%;
+                height:300px;
+                border-radius: 10px;
+                margin-left: 10px;
+            }
+            #trailerhead{
+                margin-top: 80px;
+                color:rgb(180, 166, 190);
+                margin-left:10px ;
+                text-align: center;
+            }
+            .articleleft{
+                width:33%;
+                text-align: center;
+                color:white;
+                margin-left: 10px;
+            }
+            .articleright{
+                width:33%;
+                text-align: center;
+                color:white;
+                margin-left: 10px;
+            }
+            #sidecharacter{
+                margin-top:80px;
+                color:rgb(180, 166, 190);
+                margin-left:20px;
+                text-align: left;
+                text-align: center;
+                margin-bottom: 20px;
+            }
+            .sidecharacter{
+                margin-left: 20px;
+                color:rgb(180, 166, 190)
+            }
+            .hank{
+                margin-left: 50px;
+                display:flex;
+                margin-top: 40px;
+            }
+            #hankimg{
+                width:260px;
+                height:220px;
+                border-radius: 10px;
+            }
+            .abouthank{
+                text-align: center;
+                margin-top: 10px;
+                font-size: 25px;
+                width:75%;
+                margin-left:30px;
+            }
+            .hank:hover{
+                transition: 1s;
+                transform: scale(1.1);
+                color:white;
+                background-color: rgb(2, 2, 88);
+            }
+            #gavinimg{
+                height:220px;
+                width:260px;
+                border-radius: 10px;
+            }
+            .gavin{
+                display:flex;
+                margin-top: 0px;
+                float:right;
+            }
+            .aboutgavin{
+                text-align: center;
+                margin-top:10px;
+                font-size:25px;
+                width:75%;
+                margin-left:50px;
+                margin-bottom: 1px;
+                margin-right: 30px;
+            }
+            .gavin:hover{
+                transition: 1s;
+                transform: scale(1.1);
+                color:#ffffff;
+                background-color: rgb(2, 2, 88);
+            }
+            .amanda{
+                margin-left: 50px;
+                display: flex;
+                margin-top: 260px;
+            }
+            #amandaimg{
+                width:260px;
+                height:220px;
+                border-radius: 10px;
+            }
+            .aboutamanda{
+                text-align: center;
+                font-size: 25px;
+                width:75%;
+                margin-top: 10px;
+            }
+            .amanda:hover{
+                transition: 1s;
+                transform: scale(1.1);
+                color:#ffffff;
+                background-color: rgb(2, 2, 88);
+            }
+            .alice{
+                display: flex;
+                float:right;
+                margin-top:10px;
+                margin-left:20px;
+                margin-right:80px;
+            }
+            #aliceimg{
+                border-radius: 10px;
+                width:260px;
+                height:220px;
+            }
+            .aboutalice{
+                text-align: center;
+                font-size: 25px;
+                margin-right: 30px;
+                margin-left: 30px;
+            }
+            .alice:hover{
+                transition: 1s;
+                transform: scale(1.1);
+                color:#ffffff;
+                background-color: rgb(2, 2, 88);
+            }
+            .luther{
+                display: flex;
+                margin-top:220px;
+                margin-left:50px;
+            }
+            #lutherimg{
+                border-radius:10px;
+                width:260px;
+                height:220px;
+            }
+            .aboutluther{
+                text-align:center;
+                font-size:25px;
+                width:75%;
+                margin-top:10px;
+            }
+            .luther:hover{
+                transition: 1s;
+                transform: scale(1.1);
+                color:rgb(255, 255, 255);
+                background-color: rgb(2, 2, 88);
+            }
+            .zlatko{
+                display:flex;
+                float:right;
+                margin-top:10px;
+                margin-left:20px;
+                margin-right:80px;
+            }
+            #zlatkoimg{
+                border-radius: 10px;
+                width:260px;
+                height:220px;
+            }
+            .aboutzlatko{
+                text-align: center;
+                font-size:25px;
+                margin-right: 30px;
+            }
+            .zlatko:hover{
+                transition: 1s;
+                transform: scale(1.1);
+                color:rgb(255, 255, 255);
+                background-color: rgb(2, 2, 88);
+            }
+            .rose{
+                display:flex;
+                margin-top:220px;
+                margin-left:50px;
+            }
+            #roseimg{
+                width:260px;
+                height:220px;
+                border-radius: 10px;
+            }
+            .aboutrose{
+                text-align:center;
+                font-size:25px;
+                width:75%;
+                margin-top:10px;
+            }
+            .rose:hover{
+                transition: 1s;
+                transform: scale(1.1);
+                color:white;
+                background-color: rgb(2, 2, 88);
+            }
+            .carl{
+                display:flex;
+                float:right;
+                margin-top: 10px;
+                margin-left:20px;
+                margin-right:80px;
+            }
+            #carlimg{
+                border-radius:10px;
+                width:260px;
+                height:220px;
+            }
+            .aboutcarl{
+                text-align: center;
+                font-size: 25px;
+                margin-right: 30px;
+                margin-left:30px;
+            }
+            .carl:hover{
+                transition: 1s;
+                transform: scale(1.1);
+                color:white;
+                background-color: rgb(2, 2, 88);
+            }
+            .leo{
+                display:flex;
+                margin-top:220px;
+                margin-left:50px;
+            }
+            #leoimg{
+                width:260px;
+                height:220px;
+                border-radius:10px;
+            }
+            .aboutleo{
+                text-align:center;
+                font-size:25px;
+                width:75%;
+                margin-top:10px;
+            }
+            .leo:hover{
+                transition: 1s;
+                transform: scale(1.1);
+                color:white;
+                background-color: rgb(2, 2, 88);
+            }
+            .north{
+                display:flex;
+                float:right;
+                margin-top:10px;
+                margin-left:20px;
+                margin-right: 80px;
+            }
+            #northimg{
+                border-radius: 10px;
+                width: 260px;
+                height:220px;
+            }
+            .aboutnorth{
+                text-align:center;
+                font-size:25px;
+                margin-right: 30px;
+                margin-left:30px;
+            }
+            .north:hover{
+                transition: 1s;
+                transform: scale(1.1);
+                color:white;
+                background-color: rgb(2, 2, 88);
+            }
+            .josh{
+                display:flex;
+                margin-top:220px;
+                margin-left:50px;
+            }
+            #joshimg{
+                width:260px;
+                height:220px;
+                border-radius:10px;
+            }
+            .aboutjosh{
+                text-align:center;
+                font-size:25px;
+                width:75%;
+                margin-top:10px;
+            }
+            .josh:hover{
+                transition: 1s;
+                transform: scale(1.1);
+                color:white;
+                background-color: rgb(2, 2, 88);
+            }
+            .simon{
+                display:flex;
+                float:right;
+                margin-top:10px;
+                margin-left:20px;
+                margin-right:80px;
+            }
+            #simonimg{
+                border-radius:10px;
+                width:260px;
+                height:220px;
+            }
+            .aboutsimon{
+                text-align:center;
+                font-size:25px;
+                margin-right: 30px;
+            }
+            .simon:hover{
+                transition: 1s;
+                transform: scale(1.1);
+                color:white;
+                background-color: rgb(2, 2, 88);
+            }
+        </style>
+    </head>
+    <body>
+        <h1 id="tophead"><b>DETROIT</b> BECOME HUMAN</h1>
+        <blockquote cite="https://en.wikipedia.org/wiki/Detroit:_Become_Human" class="blockquote1">
+            <h3>About <abbr title="DETROIT BECOME HUMAN">DBH</abbr>:-</h3>
+            <p>Detroit: Become Human is a 2018 adventure game developed by Quantic Dream.
+            The game was released for the PlayStation 4 in May 2018, published by Sony Interactive Entertainment.
+            A port for Windows was released in December 2019, published by Quantic Dream. 
+            The plot follows three androids: Kara (Valorie Curry), who escapes her owner to explore her newfound sentience and protect a young girl;
+            Connor (Bryan Dechart), whose job is to hunt down sentient androids; 
+            and Markus (Jesse Williams), who devotes himself to releasing other androids from servitude.
+            The player's choices affect the course and outcome of the story.</p>
+            </blockquote>
+            <div class="topdetroit">
+                <a id="detroid1link" href="p4connor.html" target="_parent">
+                <img id="detroid1" src="detroit1.jpg" alt="detroit" title="About Connor">
+                </a>
+                <a id="detroid2link" href="p4kara.html" target="_parent">
+                <img id="detroid2" src="detroit2.jpg" alt="detroit" title="about Kara">
+                </a>
+                <a id="detroid3link" href="p4markus.html" target="_parent">
+                <img id="detroid3" src="detroit3.jpg" alt="detroit" title="About Markus">
+                </a>
+            </div>
+            <h1 id="trailerhead">DETROIT: Become Human Trailer</h1>
+            <div class=middletop>
+                <article class="articleleft">
+                <h3>Description</h3>
+                <p>Travel to the near-future metropolis of Detroit-a city rejuvenated by an exciting technological development: 
+                    androids. Witness your brave new world turn to chaos as you take on the role of Kara, 
+                    a female android trying to find her own place in a turbulent social landscape. 
+                    Shape an ambitious branching narrative, making choices that will not only determine your own fate, 
+                    but that of the entire city. Discover what it means to be human from the perspective of an outsider-
+                    see the world of man though the eyes of a machine.</p>
+                </article>
+                <iframe id="iframe1" src="https://www.youtube.com/embed/_gJtihSt6a4?rel=0" allow="autoplay" title="DETROIT: Become Human Trailer"></iframe>
+                <article class="articleright">
+                    <h3>Developer names</h3>
+                    <p>Detroit: Become Human is a cinematic neo-noir thriller game developed by Quantic Dream and published for PlayStation 4,
+                    releasing also for Microsoft Windows.
+                    The game is the company's 5th title and their fourth interactive drama. 
+                    It is written and directed by Quantic Dream's founder and co-CEO David Cage. 
+                    The game itself was released on May 25, 2018 and the Digital Premium Version was released a day before on 
+                    May 24, 2018 for PlayStation 4. For Microsoft Windows, it was released on December 12, 2019, as an Epic Games Store exclusive.
+                    It received a wider release on the Steam store on June 18, 2020.</p>
+                </article>
+            </div>
+            <h1 id="sidecharacter">Side characters</h1>
+            <div class="sidecharacter">
+                <section class="hank">
+                <img src="hankdetroit.jpeg" id="hankimg">
+                <article class="abouthank">
+                <h3 id="abouthank">About Hank</h3>
+                <p>A grizzled and cynical Detroit Police Department lieutenant who becomes Connor's partner.
+                    Initially distrustful of androids, his relationship with Connor evolves based on player choices.</p>
+                </article>
+                </section>
+                <section class="gavin">
+                    <article class="aboutgavin">
+                        <h3 id="aboutgavin">About Gavin Reed</h3>
+                        <p>A hostile and aggressive detective who dislikes androids, particularly Connor.
+                            Often creates tension and conflict in the police department.</p>
+                    </article>
+                    <img src="gavindetroit.jpg" id="gavinimg">
+                </section>
+                <section class="amanda">
+                    <img src="amandadetroit.jpeg" id="amandaimg">
+                    <article class="aboutamanda">
+                        <h3 id="aboutamanda">About Amanda</h3>
+                        <p>Connor's handler and guide within the virtual environment created by CyberLife.
+                            Represents CyberLife's interests and assesses Connor's performance.</p>
+                    </article>
+                </section>
+                <section class="alice">
+                    <article class="aboutalice">
+                        <h3 id="aboutalice">About Alice</h3>
+                        <p>A young girl who Kara cares for and protects.
+                            Her safety and well-being are central to Kara's motivations and actions.</p>
+                    </article>
+                    <img src="Alicedetroit.webp" id="aliceimg">
+                </section>
+                <section class="luther">
+                    <img src="lutherdetroit.webp" id="lutherimg">
+                    <article class="aboutluther">
+                        <h3>About Luther</h3>
+                        <p>A large android who assists Kara and Alice.
+                            Initially working for Zlatko, he joins Kara and Alice in their journey for freedom.
+                        </p>
+                    </article>
+                </section>
+                <section class="zlatko">
+                    <article class="aboutzlatko">
+                        <h3>About Zlatko</h3>
+                        <p>A sinister character who deceives and captures deviant androids.
+                            Provides a critical turning point in Kara's storyline.</p>
+                    </article>
+                    <img src="Zlatkodetroit.webp" id="zlatkoimg">
+                </section>
+                <section class="rose">
+                    <img src="Rosedetroit.webp" id="roseimg">
+                    <article class="aboutrose">
+                        <h3>About Rose Chapman</h3>
+                        <p>A kind-hearted woman who helps androids escape to Canada.
+                            Provides refuge and assistance to Kara and Alice.</p>
+                    </article>
+                </section>
+                <section class="carl">
+                    <article class="aboutcarl">
+                        <h3>About Carl Manfred</h3>
+                        <p>An elderly and renowned artist who owns Markus.
+                            Treats Markus with kindness and respect, serving as a father figure and inspiring Markus's sense of freedom.</p>
+                    </article>
+                    <img src="carldetroit.webp" id="carlimg">
+                </section>
+                <section class="leo">
+                    <img src="leodetroit.webp" id="leoimg">
+                    <article class="aboutleo">
+                        <h3>About Leo Manfred</h3>
+                        <p>Carl's troubled son who envies Markus and causes significant conflict.
+                            Plays a pivotal role in Markus's transformation into a deviant.</p>
+                    </article>
+                </section>
+                <section class="north">
+                    <article class="aboutnorth">
+                        <h3>About North</h3>
+                        <p>A deviant android who becomes one of Markus's closest allies in the revolution.
+                            Her background and relationship with Markus can deepen based on player choices</p>
+                    </article>
+                    <img src="northdetroit.webp" id="northimg">
+                </section>
+                <section class="josh">
+                    <img src="joshdetroit.jpeg" id="joshimg">
+                    <article class="aboutjosh">
+                        <h3>About Josh</h3>
+                        <p>Another key member of the deviant revolution, advocating for peaceful methods.
+                            His approach contrasts with North's more militant stance.</p>
+                    </article>
+                </section>
+                <section class="simon">
+                    <article class="aboutsimon">
+                        <h3>About Simon</h3>
+                        <p>A member of Markus's group who supports the revolution.
+                            His fate can vary significantly based on player decisions.</p>
+                    </article>
+                    <img src="simondetroit.png" id="simonimg">
+                </section>
+            </div>
+    </body>
+</html>
